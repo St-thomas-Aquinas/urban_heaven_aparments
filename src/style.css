@@ -1,0 +1,187 @@
+
+/*Being of styling of header section */
+.header_section {
+  display: flex;
+  color: blue;
+  background: #5b2a9b;
+   background: linear-gradient(90deg, rgba(91, 42, 155, 1) 0%, rgba(87, 199, 133, 1) 50%, rgb(32, 33, 32) 100%);
+  grid-area: 2em;
+  min-height: 12PX;
+  width: auto;
+  justify-content: center;
+  border-radius: 20px;
+  
+}
+.logo_div{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 15px;
+
+}
+.logo_div img{
+  max-width: 20%;
+  height: auto;
+  border-radius: 50%;
+  object-fit: cover;
+  border-color: aqua;
+}
+.contacts_social{
+  display: flex;
+  gap: 2em;
+  justify-content: center;
+  align-items: center;
+}
+.button{
+  margin-left: 20rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+}
+.button button {
+	box-shadow: 0px -2px 0px -50px #3dc21b;
+	background:linear-gradient(to bottom, #44c767 5%, #5cbf2a 100%);
+	background-color:#44c767;
+	border-radius:28px;
+	border:1px solid #18ab29;
+	display:flex;
+	cursor:pointer;
+	color:#ffffff;
+	font-family:Arial;
+	font-size:15px;
+ margin-right: 10px;
+	text-decoration:none;
+  min-height: 15px;
+  justify-content: center;
+  align-items: center;
+} 
+.button button:hover {
+	background:linear-gradient(to bottom, #5cbf2a 5%, #44c767 100%);
+	background-color:#5cbf2a;
+}
+.button button:active {
+	position:relative;
+	top:1px;
+}
+
+/*End of styling of header section */      
+
+
+/*Being of styling of body section */
+@import url(
+'https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+
+body {
+    font-family: 'Poppins', sans-serif;
+    
+}
+
+h1 {
+    color: rgb(41, 107, 41);
+    text-align: center;
+    font-family: "Dancing Script", cursive;
+   
+}
+
+h3 {
+    text-align: center;
+    font-family: "Dancing Script", cursive;
+}
+ .EXPLANATION{
+  text-align: center;
+  color: #3dc21b;
+  font-family: "Dancing Script", cursive;
+  font-size: large;
+ }
+
+ .AMENITIES {
+  text-align: center;
+  color: #3dc21b;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+
+ }
+.gallerybox {
+    overflow-x: auto;
+    border:  2px solid  purple;
+    padding: 10px ,10px;
+    border-radius: 20px;
+    margin: 10px;
+}
+
+.imgbox img {
+    width: 400px;
+    height: 200px;
+    margin-right: 5px;
+    border-radius: 20px;
+    border: 2px solid rgb(138, 138, 128);
+}
+
+.imgbox {
+    display: flex;
+    flex-wrap: nowrap;
+}
+
+form{
+  display: flex ;
+  flex-direction: column;
+  background-color: white;
+  align-items: center;
+  gap: 2em;
+}
+form input{
+    background-color:purple;
+    color:purple;
+    width: 25%;
+    padding: 10px;
+    border-radius: 5px;
+    box-sizing: border-box;
+    
+}
+
+
+form textarea{
+  background-color:purple;
+  width: 25%;
+  height: 100px;
+  padding: 10px 0;
+  box-sizing: border-box;
+  border-radius: 4px;
+  color: purple;
+}
+
+form input:focus {
+  background-color:white;
+}
+
+form textarea:focus {
+  background-color:white;
+}
+
+input[type="submit"] {
+  background-color: purple;
+  width: 180px;
+  display: block;
+  margin: 0px auto;
+  border: none;
+  border-radius: 5px;
+  font-weight: bold;
+  font-size: 18px;
+  font-family: "Courier New", Courier, monospace;
+  color: white;
+  margin-top: 30px;
+  padding: 20px;
+  text-align: center;
+  cursor: pointer;
+}
+
+input[type="submit"]:hover {
+  background-color: indigo;
+}
+
+.form_class{
+  border:  2px solid  purple;
+  padding: 10px ,10px;
+  border-radius: 20px;
+  margin: 10px;
+}

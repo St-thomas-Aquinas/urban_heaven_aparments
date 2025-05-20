@@ -1,11 +1,14 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  }
 
 /*Being of styling of header section */
 .header_section {
   display: flex;
-  color: blue;
-  background: #5b2a9b;
+  color: green;
    background: linear-gradient(90deg, rgba(91, 42, 155, 1) 0%, rgba(87, 199, 133, 1) 50%, rgb(32, 33, 32) 100%);
-  grid-area: 2em;
   min-height: 12PX;
   width: auto;
   justify-content: center;
@@ -24,7 +27,6 @@
   height: auto;
   border-radius: 50%;
   object-fit: cover;
-  border-color: aqua;
 }
 .contacts_social{
   display: flex;
